@@ -3,6 +3,10 @@
  ***
 ## .env
 The .env manages env variables and stores API keys, database passwords and tokens securely.
-
-env Variable file which contains all the keys and Identifiers
+Create a .env with the following api keys/ids:
+BRIGHTDATA_API_KEY -> https://brightdata.com/
+BRIGHTDATA_SERP_ZONE -> https://brightdata.com/cp/zones
+BRIGHTDATA_GPT_DATASET_ID -> https://brightdata.com/cp/scrapers/api/gd_m7aof0k82r803d5bjm/pdp/overview?id=hl_7ace47eb
+BRIGHTDATA_PERPLEXITY_DATASET_ID -> https://brightdata.com/cp/scrapers/api/gd_m7dhdot1vw9a7gc1n/pdp/overview?id=hl_7ace47eb
+OPENAI_API_KEY -> https://platform.openai.com/api-keys
 
