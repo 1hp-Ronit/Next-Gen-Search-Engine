@@ -1,6 +1,39 @@
-# Next-Gen-Search Engine in python
- To be precise it's gonna be a AI Agent with access to multiple data sources or APIs which it can use to give us an answer, for eg will have access to google search, chatgpt, perplexity etc and depending on our query it's going to determine which data source to use and give an appropriate answer with sources and relevant links.
- ***
+# 🔎 Multi-Source AI Search & Answering Agent
+
+This project is a **multi-source AI-powered search and answer engine** built using:
+
+- **Flask** (for the web server & API)
+- **LangChain + LangGraph** (to control agent reasoning and tool orchestration)
+- **Bright Data API** (to scrape Google, Bing, Reddit, X, ChatGPT & Perplexity)
+- **OpenAI (ChatGPT)** (for intelligent answer synthesis)
+
+The agent is designed to:
+✅ Always use **at least two tools**  
+✅ Aggregate responses  
+✅ Provide **summarized information + sources**  
+✅ Support both **JSON API** and **HTML interface**
+
+---
+
+## 🚀 Features
+
+- Search via:
+  - Google
+  - Bing
+  - Reddit
+  - X (Twitter)
+  - ChatGPT (via BrightData scraping)
+  - Perplexity AI (via BrightData scraping)
+
+- Automatic answer aggregation
+- Real-time web search
+- REST API endpoint support
+- Flask web UI
+- Secure API keys using `.env`
+
+---
+
+
 ## .env
 The .env manages env variables and stores API keys, database passwords and tokens securely.
 Create a .env with the following api keys/ids:
